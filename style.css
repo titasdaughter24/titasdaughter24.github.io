@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Quintessential&family=Rozha+One&display=swap');
+
+
+header{
+  background-color: rgb(255, 252, 248);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 16px;
+}
+
+header img{
+width: 55%;
+}
+
+
+header ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li{
+  margin: 10px;
+  color: rgb(46, 9, 150);
+  font-size: 18px;
+  background-color: rgb(255, 251, 251);
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header i{
+  font-size: 22px;
+  margin: 8px;
+}
+
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(255, 254, 252);
+  margin: 12px 0 12px 0;
+}
+
+.cajatex{
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: saddlebrown;
+  font-family: "Rozha One", serif 
+}
+
+
+.caja{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja h2{
+  font-family: "Courgette", cursive;
+  font-size: 25px;
+  color: saddlebrown;
+}
+
+.caja p{
+  font-size: 16px;
+  font-family: "Philosopher", sans-serif;
+}
+
+.caja img{
+  border-color: rgb(77, 0, 0);
+  border-radius: 5px;
+  width: 70%;
+}
+
+.nuevo h3{
+  font-size: 33px;
+  text-align: center;
+  color: saddlebrown;
+  font-family: "Rozha One", serif
+}
+
+.nuevos{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: beige;
+}
+
+.new{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new img{
+  width: 60%;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.new p{
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Stardos Stencil", system-ui;
+  color: black; 
+}
+
+.new i{
+  font-size: 20px;
+}
+
+.category img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block; 
+  padding: 10px;
+}
+
+.cont h4{
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+  color: saddlebrown;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  background-color: beige;
+}
+
+.producto{
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.producto p{
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  font-family: "Stardos Stencil", system-ui;
+  color: black;
+  justify-content: center;
+}
+
+.producto img{
+  width: 75%;
+}
+
+.producto i{
+  font-size: 20px;
+  text-align: center;
+}
+
+.guia h5{
+  font-size: 30px;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.videos{
+  display: flex;
+  align-items: center;
+  padding: 20px; 
+  min-width: 300px;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+}
+
+
+footer h6{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer p{
+  padding: 10px;
+  background-color: beige;
+}
+
+footer i{
+  padding: 12px;
+  font-size: 22px;
+  background-color: beige;
+}
+
+footer li{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  background-color: beige;
+}
+
+
+footer{
+  padding: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
